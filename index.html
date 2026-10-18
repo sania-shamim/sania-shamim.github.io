@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sania Shamim | BCA Student</title>
-<meta name="description" content="Sania Shamim is a BCA student interested in tech and problem solving. See her live projects: a lab price comparison app, a weather app, a scholarship finder and a voice chatbot.">
+<meta name="description" content="Sania Shamim is a BCA student interested in tech and problem solving. See her live projects: a lab price comparison app, a weather app, a scholarship finder, a voice chatbot and a trip expense settler.">
 <meta name="theme-color" content="#FCE7EE">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎀</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -133,6 +133,7 @@ header,main,footer{position:relative;z-index:1}
 .pv-wx{background:linear-gradient(135deg,#F5C2D3,#E9A3BD)}
 .pv-sch{background:linear-gradient(135deg,#FCE3EB,#F5C2D3)}
 .pv-cw{background:linear-gradient(135deg,#FCE3EB,#F8C7D8)}
+.pv-gt{background:linear-gradient(135deg,#F8C7D8,#F5C2D3)}
 .pv .tag{position:absolute;left:.9rem;top:.9rem;z-index:3;padding:.3rem .8rem;border-radius:999px;font-size:.82rem;font-weight:500;color:var(--mulberry);background:rgba(255,255,255,.7);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);box-shadow:0 0 0 1px rgba(224,138,170,.5)}
 .pv small{position:absolute;right:.9rem;bottom:.6rem;font-size:.72rem;color:var(--berry);opacity:.7}
 .pbow{position:absolute;right:.6rem;top:.4rem;width:74px;height:50px;opacity:.55;rotate:12deg;z-index:0}
@@ -310,7 +311,7 @@ header,main,footer{position:relative;z-index:1}
   <section class="sec" id="projects" aria-labelledby="projects-h">
     <div class="wrap">
       <h2 class="sec-title reveal" id="projects-h">Projects</h2>
-      <p class="sec-intro reveal">Four live apps, each built around a real everyday problem. Filter by type, then open the demo.</p>
+      <p class="sec-intro reveal">Five live apps, each built around a real everyday problem. Filter by type, then open the demo.</p>
 
       <div class="filters reveal" role="group" aria-label="Filter projects">
         <button class="fbtn on" type="button" data-f="all" aria-pressed="true">All</button>
@@ -451,6 +452,39 @@ header,main,footer{position:relative;z-index:1}
           </div>
         </article>
 
+        <article class="pcard reveal" data-cat="fullstack tool">
+          <div class="pv pv-gt">
+            <svg class="pbow" aria-hidden="true"><use href="#bow"/></svg>
+            <span class="tag">Full-stack</span>
+            <figure class="shot" aria-hidden="true">
+              <div class="bar"><i></i><i></i><i></i></div>
+              <div class="body">
+                <div class="sp"><span>5 expenses</span><em>&#8377;5100</em></div>
+                <div class="row best"><span>Asha pays Ravi</span><b>&#8377;825</b></div>
+                <div class="row"><span>Meera pays Dev</span><b>&#8377;775</b></div>
+                <div class="row"><span>Meera pays Ravi</span><b>&#8377;50</b></div>
+              </div>
+            </figure>
+            <small>Illustrative preview</small>
+          </div>
+          <div class="pb">
+            <h3>Gather</h3>
+            <p class="what">Paste a group trip chat and Gather finds every expense, works out who owes whom, and shows the fewest payments needed to settle up.</p>
+            <ul>
+              <li>Uses the Gemini API to read each message and extract the payer, amount and who shares the cost</li>
+              <li>Nets everyone's balance to find the minimum number of transfers</li>
+              <li>Mobile-friendly page showing total trip spend and who pays whom</li>
+            </ul>
+            <div class="chips">
+              <span class="chip">JavaScript</span><span class="chip">Node.js</span><span class="chip">Gemini API</span><span class="chip">Replit</span>
+            </div>
+            <div class="links">
+              <a class="btn btn-fill" href="https://ba231ea7-5087-4234-a304-a838073ee72e-00-17f8cfq6dz6vb.pike.replit.dev/" target="_blank" rel="noopener">Open live demo</a>
+              <a class="btn btn-line" href="https://github.com/sania-shamim/gather" target="_blank" rel="noopener">View code</a>
+            </div>
+          </div>
+        </article>
+
       </div>
     </div>
   </section>
@@ -464,7 +498,7 @@ header,main,footer{position:relative;z-index:1}
           <p>Most of what I build starts with an everyday annoyance: comparing lab test prices across providers, checking the weather without clutter, or finding government scholarships a student actually qualifies for.</p>
           <p>I work mostly with HTML, CSS and JavaScript on the front end, and Python (Flask) or Node.js behind it, with SQL and PostgreSQL when the data needs a home. I care about clean code, mobile-first layouts and the small details that make a page feel considered.</p>
           <div class="stats">
-            <div class="stat"><b>4</b><span>live projects</span></div>
+            <div class="stat"><b>5</b><span>live projects</span></div>
             <div class="stat"><b>10+</b><span>technologies</span></div>
             <div class="stat"><b>BCA</b><span>student</span></div>
           </div>
